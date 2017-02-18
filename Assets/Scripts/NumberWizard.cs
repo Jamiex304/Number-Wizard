@@ -7,7 +7,8 @@ public class NumberWizard : MonoBehaviour {
 	int max;
 	int min;
 	int guess;
-			
+	
+	//Called for starting and restarting the game		
 	void Start () {
 		StartGame();
 	}
